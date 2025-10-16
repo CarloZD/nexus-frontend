@@ -5,12 +5,12 @@ function Home() {
 
   const handleLogout = () => {
     alert("Cerraste sesión correctamente 👋");
-    navigate("/"); // vuelve al login
+    navigate("/"); 
   };
 
   return (
     <div style={{ textAlign: "center", marginTop: "50px" }}>
-      <h1>🎮 Bienvenido al sistema Nexus</h1>
+      <h1>Bienvenido al sistema Nexus</h1>
       <p>Has iniciado sesión correctamente.</p>
       <button
         onClick={handleLogout}
